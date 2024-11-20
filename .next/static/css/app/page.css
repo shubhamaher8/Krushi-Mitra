@@ -1,0 +1,259 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/styles/MainSection.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+.MainSection_main__uTd7j {
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Hero Section with Background Image */
+.MainSection_heroSection__HBT0q {
+    position: relative;
+    background-image: url('https://modernfarmingindia.home.blog/wp-content/uploads/2019/01/cropped-modern-farming-in-india.png');
+    background-size: cover;
+    background-position: center;
+    height: 500px; /* Height of the hero section */
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.MainSection_heroOverlay___Bb8I {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 40px;
+    text-align: center;
+    border-radius: 12px;
+
+    position: relative;
+    top: 100px; /* Vertical positioning */
+    
+     backdrop-filter: blur(2px); /*Apply a blur effect*/
+}
+
+
+.MainSection_heroTitle___dLnD {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.MainSection_heroSubtitle__cm16O {
+    font-size: 1rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.MainSection_ctaButton__NmMeO {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.MainSection_ctaButton__NmMeO:hover {
+    background-color: #1b7e45;
+}
+
+/* Features Section */
+.MainSection_featuresSection__We1gt {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.MainSection_featuresTitle__P003H {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    color: #27ae60;
+    font-weight: bold;
+}
+
+.MainSection_featuresContainer__vigx5 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap; /* Makes the feature cards wrap on smaller screens */
+}
+
+.MainSection_featureCard__dKQAx {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 30%; /* Adjust for desktop */
+    min-width: 250px; /* Prevent feature cards from becoming too small */
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.MainSection_featureCard__dKQAx:hover {
+    transform: translateY(-5px);
+}
+
+.MainSection_featureImage__11qi5 {
+    max-width: 80px;
+    margin-bottom: 15px;
+}
+
+.MainSection_featureTitle__DjQIv {
+    font-size: 1.4rem;
+    color: #27ae60;
+    margin-bottom: 10px;
+}
+
+.MainSection_featureDescription__sNRhd {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* FAQ Section */
+.MainSection_faqSection__5HmL2 {
+    margin-top: 50px;
+}
+
+.MainSection_faqTitle__dTw6x {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+}
+
+.MainSection_faqItem__dLZox {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    transition: background-color 0.3s ease;
+}
+
+.MainSection_faqItem__dLZox:hover {
+    background-color: #f1f1f1;
+}
+
+.MainSection_faqQuestion__ustfG {
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.MainSection_icon__dlcuG, .MainSection_activeIcon__gX5aR {
+    margin-left: 10px;
+    font-size: 1.5rem;
+}
+
+.MainSection_faqAnswer__pyRPl {
+    margin-top: 15px;
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Footer Styling */
+.MainSection_footer__3hsBR {
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 50px;
+    border-radius: 12px;
+}
+
+.MainSection_footer__3hsBR p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 1024px) {
+    .MainSection_heroSection__HBT0q {
+        height: 400px;
+    }
+
+    .MainSection_heroTitle___dLnD {
+        font-size: 1.8rem;
+    }
+
+    .MainSection_heroSubtitle__cm16O {
+        font-size: 0.9rem;
+    }
+
+    .MainSection_ctaButton__NmMeO {
+        font-size: 0.9rem;
+        padding: 10px 20px;
+    }
+
+    .MainSection_featureCard__dKQAx {
+        width: 45%; /* Adjust width for tablet screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .MainSection_heroSection__HBT0q {
+        height: 350px;
+    }
+
+    .MainSection_heroOverlay___Bb8I {
+        padding: 20px;
+    }
+
+    .MainSection_heroTitle___dLnD {
+        font-size: 1.6rem;
+    }
+
+    .MainSection_heroSubtitle__cm16O {
+        font-size: 0.85rem;
+    }
+
+    .MainSection_ctaButton__NmMeO {
+        font-size: 0.85rem;
+        padding: 8px 15px;
+    }
+
+    .MainSection_featuresContainer__vigx5 {
+        flex-direction: column; /* Stack the feature cards on top of each other */
+    }
+
+    .MainSection_featureCard__dKQAx {
+        width: 80%; /* Full width for smaller screens */
+        margin-bottom: 20px;
+    }
+
+    .MainSection_faqItem__dLZox {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .MainSection_heroSection__HBT0q {
+        height: 300px;
+    }
+
+    .MainSection_heroTitle___dLnD {
+        font-size: 1.4rem;
+    }
+
+    .MainSection_heroSubtitle__cm16O {
+        font-size: 0.8rem;
+    }
+
+    .MainSection_ctaButton__NmMeO {
+        font-size: 0.8rem;
+        padding: 6px 10px;
+    }
+
+    .MainSection_featureCard__dKQAx {
+        width: 90%;
+    }
+}
+
+
+

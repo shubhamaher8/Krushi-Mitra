@@ -1,0 +1,45 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/styles/SchemeDisplay.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+/* src/styles/SchemeDisplay.module.css */
+.SchemeDisplay_schemeContainer__CYqYx {
+    padding: 20px;
+    background-color: #e8f5e9; /* Light green background */
+    max-height: 80vh; /* Set a maximum height for the container */
+    overflow-y: auto; /* Allow vertical scrolling */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+.SchemeDisplay_noBullets__f275w {
+    list-style-type: none; /* Removes bullet points */
+    padding-left: 0; /* Optional: Removes indentation */
+  }
+  
+  .SchemeDisplay_noBullets__f275w li {
+    margin-bottom: 8px; /* Adds space between items */
+  }
+  
+.SchemeDisplay_title__XSJ17 {
+    text-align: center;
+    color: #4caf50; /* Dark green for the title */
+    margin-bottom: 20px;
+}
+
+.SchemeDisplay_schemeCard__rJzhI {
+    background: #ffffff; /* White background for each scheme card */
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.SchemeDisplay_schemeName__Vtgev {
+    font-size: 1.5rem;
+    color: #388e3c; /* Darker green for scheme name */
+    margin-bottom: 10px;
+}
+
+.SchemeDisplay_description__Mm_Wq {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+

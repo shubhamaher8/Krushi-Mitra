@@ -1,0 +1,67 @@
+/* Footer.module.css */
+.footer {
+    background-color: #30d274; /* Earthy dark green */
+    padding: 40px 20px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.nav {
+    margin-bottom: 20px;
+}
+
+.navList {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.navList li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navList li a:hover {
+    text-decoration: underline;
+    color: #acd1b3; /* Light green hover color */
+}
+
+.socialLinks {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.socialLinks a {
+    color: #fff;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.socialLinks a:hover {
+    color: #acd1b3; /* Hover color matching branding */
+}
+
+.text {
+    font-size: 14px;
+    margin-top: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .navList {
+        flex-direction: column;
+        gap: 10px;
+    }
+}

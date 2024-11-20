@@ -1,0 +1,89 @@
+.loginPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e9f5e9; /* Light green background */
+}
+
+.loginContainer {
+    background: #ffffff; /* White background for the container */
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+.title {
+    text-align: center;
+    font-size: 2rem; /* Increased font size for the title */
+    margin-bottom: 0.5rem;
+    color: #30d274; /* Dark green for title */
+}
+
+.subTitle {
+    text-align: center;
+    font-size: 1rem; /* Subtitle font size */
+    margin-bottom: 1.5rem;
+    color: #6D9E5A; /* Lighter green for subtitle */
+}
+.loginForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.formGroup {
+    margin-bottom: 1.2rem;
+}
+
+.inputField {
+    width: 100%;
+    padding: 0.8rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    transition: all 0.3s ease;
+}
+
+.inputField:focus {
+    outline: none;
+    border-color: #4A772D; /* Dark green border on focus */
+    box-shadow: 0 0 8px rgba(74, 119, 45, 0.25);
+}
+
+.passwordContainer {
+    display: flex;
+    align-items: center;
+}
+
+.togglePassword {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 0.5rem; /* Space between input and button */
+}
+
+.loginButton {
+    padding: 0.8rem;
+    background-color: #30d274; /* Dark green background */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.loginButton:hover {
+    background-color: #3B5A22; /* Darker green on hover */
+}
+
+.errorMessage {
+    color: red;
+    margin-bottom: 1rem;
+}
+
+.registerText {
+    text-align: center;
+    margin-top: 1rem;
+}

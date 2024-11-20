@@ -1,0 +1,255 @@
+.main {
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Hero Section with Background Image */
+.heroSection {
+    position: relative;
+    background-image: url('https://modernfarmingindia.home.blog/wp-content/uploads/2019/01/cropped-modern-farming-in-india.png');
+    background-size: cover;
+    background-position: center;
+    height: 500px; /* Height of the hero section */
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.heroOverlay {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 40px;
+    text-align: center;
+    border-radius: 12px;
+
+    position: relative;
+    top: 100px; /* Vertical positioning */
+    
+     backdrop-filter: blur(2px); /*Apply a blur effect*/
+}
+
+
+.heroTitle {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.heroSubtitle {
+    font-size: 1rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.ctaButton {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.ctaButton:hover {
+    background-color: #1b7e45;
+}
+
+/* Features Section */
+.featuresSection {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.featuresTitle {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    color: #27ae60;
+    font-weight: bold;
+}
+
+.featuresContainer {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap; /* Makes the feature cards wrap on smaller screens */
+}
+
+.featureCard {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 30%; /* Adjust for desktop */
+    min-width: 250px; /* Prevent feature cards from becoming too small */
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.featureCard:hover {
+    transform: translateY(-5px);
+}
+
+.featureImage {
+    max-width: 80px;
+    margin-bottom: 15px;
+}
+
+.featureTitle {
+    font-size: 1.4rem;
+    color: #27ae60;
+    margin-bottom: 10px;
+}
+
+.featureDescription {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* FAQ Section */
+.faqSection {
+    margin-top: 50px;
+}
+
+.faqTitle {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+}
+
+.faqItem {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    transition: background-color 0.3s ease;
+}
+
+.faqItem:hover {
+    background-color: #f1f1f1;
+}
+
+.faqQuestion {
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon, .activeIcon {
+    margin-left: 10px;
+    font-size: 1.5rem;
+}
+
+.faqAnswer {
+    margin-top: 15px;
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 50px;
+    border-radius: 12px;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 1024px) {
+    .heroSection {
+        height: 400px;
+    }
+
+    .heroTitle {
+        font-size: 1.8rem;
+    }
+
+    .heroSubtitle {
+        font-size: 0.9rem;
+    }
+
+    .ctaButton {
+        font-size: 0.9rem;
+        padding: 10px 20px;
+    }
+
+    .featureCard {
+        width: 45%; /* Adjust width for tablet screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .heroSection {
+        height: 350px;
+    }
+
+    .heroOverlay {
+        padding: 20px;
+    }
+
+    .heroTitle {
+        font-size: 1.6rem;
+    }
+
+    .heroSubtitle {
+        font-size: 0.85rem;
+    }
+
+    .ctaButton {
+        font-size: 0.85rem;
+        padding: 8px 15px;
+    }
+
+    .featuresContainer {
+        flex-direction: column; /* Stack the feature cards on top of each other */
+    }
+
+    .featureCard {
+        width: 80%; /* Full width for smaller screens */
+        margin-bottom: 20px;
+    }
+
+    .faqItem {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .heroSection {
+        height: 300px;
+    }
+
+    .heroTitle {
+        font-size: 1.4rem;
+    }
+
+    .heroSubtitle {
+        font-size: 0.8rem;
+    }
+
+    .ctaButton {
+        font-size: 0.8rem;
+        padding: 6px 10px;
+    }
+
+    .featureCard {
+        width: 90%;
+    }
+}
+
+

@@ -1,0 +1,41 @@
+/* src/styles/SchemeDisplay.module.css */
+.schemeContainer {
+    padding: 20px;
+    background-color: #e8f5e9; /* Light green background */
+    max-height: 80vh; /* Set a maximum height for the container */
+    overflow-y: auto; /* Allow vertical scrolling */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+.noBullets {
+    list-style-type: none; /* Removes bullet points */
+    padding-left: 0; /* Optional: Removes indentation */
+  }
+  
+  .noBullets li {
+    margin-bottom: 8px; /* Adds space between items */
+  }
+  
+.title {
+    text-align: center;
+    color: #4caf50; /* Dark green for the title */
+    margin-bottom: 20px;
+}
+
+.schemeCard {
+    background: #ffffff; /* White background for each scheme card */
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.schemeName {
+    font-size: 1.5rem;
+    color: #388e3c; /* Darker green for scheme name */
+    margin-bottom: 10px;
+}
+
+.description {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
