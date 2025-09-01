@@ -1,11 +1,28 @@
-# KRUSHI-MITR
+# Krushi-Mitra: Your Digital Farming Companion 🌾
+KRUSHI-MITR is a web platform dedicated to empowering farmers by simplifying access to government schemes. The platform serves as a bridge to financial aid and welfare opportunities, providing personalized guidance and up-to-date resources. By fostering inclusivity and innovation, KRUSHI-MITR aims to create a meaningful impact on diverse communities.
 
-![Home](assets/Home.png)
-![Home 2](assets/Home2.png)
-![Login Register](assets/LoginRegister.png)
-![Contact Us](assets/Contactus.png)
+## Deployment
 
-KRUSHI-MITR is a web platform dedicated to empowering farmers, students, small businesses, and nonprofit organizations by simplifying access to government schemes. The platform serves as a bridge to financial aid and welfare opportunities, providing personalized guidance and up-to-date resources. By fostering inclusivity and innovation, KRUSHI-MITR aims to create a meaningful impact on diverse communities.
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://krushi-mitra-web.vercel.app/)
+
+[![Live Project](https://img.shields.io/badge/Live%20Project-krushi--mitra--web.vercel.app-green?style=for-the-badge&logo=vercel)](https://krushi-mitra-web.vercel.app/)
+
+## Prototype Screenshots
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="assets/Home.png" alt="Homepage Screenshot" width="420"/>
+      <br/>
+      <b>Homepage View</b>
+    </td>
+    <td align="center">
+      <img src="assets/Home2.png" alt="Dashboard Screenshot" width="420"/>
+      <br/>
+      <b>About View</b>
+    </td>
+  </tr>
+</table>
 
 ## Key Objectives
 
@@ -27,20 +44,11 @@ By maintaining current information on available schemes, KRUSHI-MITR ensures use
 ### Interactive Design
 The website includes engaging features, such as a rotating logo animation on hover, enhancing user experience and visual appeal.
 
-### Student Planner
-A specialized section provides tools for students to organize tasks, manage time effectively, and achieve academic goals.
-
 ## Technology Stack
 
 - **Frontend**: Built using React.js for a dynamic and responsive user interface.
 - **Backend**: Powered by Appwrite for secure and scalable data management.
 - **Styling**: Organized CSS within a modular `styles` folder for maintainability and efficiency.
-
-## Deployment
-
-KRUSHI-MITR is deployed on Vercel and can be accessed at:
-
-[https://krushi-mitra-web.vercel.app/](https://krushi-mitra-web.vercel.app/)
 
 ## Getting Started
 
@@ -55,8 +63,8 @@ To set up KRUSHI-MITR locally:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/DChitale/krishi-mitra.git
-   cd krishi-mitra
+   git clone https://github.com/shubhamaher8/Krushi-Mitra.git
+   cd Krushi-Mitra
    ```
 
 2. **Install Dependencies**:
@@ -81,12 +89,6 @@ To set up KRUSHI-MITR locally:
 ### For Farmers
 - Input personal and land details to receive curated government schemes.
 - Explore schemes categorized for agricultural development, financial aid, and more.
-
-### For Students
-- Utilize the student planner for effective task management and study organization.
-
-### For Small Businesses and Nonprofits
-- Browse schemes aimed at boosting small businesses and supporting nonprofit initiatives.
 
 ## Future Enhancements
 
@@ -113,7 +115,3 @@ KRUSHI-MITR thrives on community contributions. To contribute:
    git push origin feature-name
    ```
 5. **Submit a Pull Request** for review.
-
-## Acknowledgments
-
-We extend our gratitude to all contributors and supporters of KRUSHI-MITR. Together, we can make a difference!
